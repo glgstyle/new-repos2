@@ -1,0 +1,137 @@
+body{
+
+    background-color: #eee;
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+}
+header {
+width: 100%;
+margin: 0;
+position: fixed;
+background-color: #eee;
+z-index: 999; 
+top: 0;
+display: flex;
+align-items: center;
+padding: 0px 10px;
+max-height: 75vh;
+}
+
+.logo > img{
+    width: 100%;
+    max-width: 300px;
+    display: flex;
+    align-items: flex-start;
+
+}
+nav{
+    display: flex;
+    width: 100%;
+}
+nav > ul{
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    list-style: none;
+    
+}
+ul > li{
+    padding-right: 90px;
+}
+ul > li > a {
+    text-decoration: none;
+}
+.container{
+    margin-top: 90px;
+    text-align: center;
+}
+button[type="submit"] {
+    text-transform: uppercase;
+    background-color: #F1C40F;
+    font-size: 16px;
+    padding: 8px;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #ff8c00;
+}
+#features{
+    width: 70%;
+    margin: auto;
+    display: row;
+}
+.features-container{
+    display: flex;
+    padding-left: 140px;   
+}
+h3{
+    font-weight: bold;
+    font-size: 25px;
+}
+div.icone{
+    display: flex;
+    min-width: 150px;
+    margin: auto;
+}
+.icone > i{
+    
+    color: #ff8c00;
+    font-size: 50px;
+}
+div.article{
+    
+    text-align: left;
+}
+#how-it-works{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+#pricing{
+    width: 1000px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+}
+.box{
+    width: calc(100% / 3);
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin: 10px;
+    padding-bottom: 30px;
+}
+.title-box{
+    text-transform: uppercase;
+
+}
+.title-box > h3{
+    margin:0;
+    padding: 15px;
+    background-color: #ddd;
+    font-weight: bold;
+}
+h4{
+    font-size: 25px;
+    font-weight: 600;
+}
+.footer-box{
+    padding-top: 30px;
+}
+a.btn{
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    background-color:#F1C40F;
+    border-radius: 2px;
+    color:black;
+}
+a.btn:hover {
+    background-color: #FF8C00;
+    color:black;
+}
